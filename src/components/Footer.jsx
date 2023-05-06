@@ -5,7 +5,6 @@ import { SiTailwindcss } from "react-icons/si";
 export const Footer = () => {
  return (
   <div>
-
    <footer class="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
     <div class="w-full mx-auto max-w-screen-xl md:flex md:items-center md:justify-between">
      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 Sandra M. Yun. All Rights Reserved.
