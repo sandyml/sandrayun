@@ -146,7 +146,6 @@ export const Landing = () => {
         </div>
         {/* <div> */}
         {/* </div> */}
-        
       </main>
           <Footer />
     </div>
