@@ -8,7 +8,7 @@ import { HomePage } from './components/intro/HomePage';
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<HomePage />} />
+      <Route path="/sandrayun" element={<HomePage />} />
       {/* <Route path="/*" element={<NotFound />} /> */}
       {/* <img src={logo} className="App-logo" alt="logo" /> */}
     </Routes>
