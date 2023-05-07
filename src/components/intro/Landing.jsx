@@ -48,7 +48,8 @@ export const Landing = () => {
               </li>
               <li>
                 <div className="button-border px-4 py-2 border-none rounded-md ml-8 text-black dark:text-white">
-                  <a className="button" type="application/pdf" href="Resume.pdf">
+                  <a className="button" href="Resume.pdf">
+                  {/* <a className="button" type="application/pdf" href="Resume.pdf"> */}
                     Resume
                   </a>
                 </div>
@@ -69,53 +70,57 @@ export const Landing = () => {
             </div>
           </div>
           <div className="text-center p-10 py-10">
-            <h2 
-            style={{
-              fontSize: 55.6,
-              fontFamily: 'Aurora Regular, Astralaga',
-              letterSpacing: 0,
-              fontWeight: 200
-            }}
-            className="font-aurora-regular text-5xl py-2 text-teal-500 font-medium dark:text-teal-500 md:text-6xl">
+            <h2
+              style={{
+                fontSize: 55.6,
+                fontFamily: 'Aurora Regular, Astralaga',
+                letterSpacing: 0,
+                fontWeight: 200
+              }}
+              className="font-aurora-regular text-5xl py-2 text-teal-500 font-medium dark:text-teal-500 md:text-6xl">
               Sandra Yun
             </h2>
             <h3 style={{
               fontFamily: 'Aurora Regular, Astralaga',
               letterSpacing: 1.4
             }}
-            className="custom-text-selection text-2xl py-2 dark:text-white md:text-2xl">
+              className="custom-text-selection text-2xl py-2 dark:text-white md:text-2xl">
               Full Stack Developer
             </h3>
             <p className=" py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-md">
               Based in
               <span style={{
-              fontFamily: 'Aurora Regular, Astralaga',
-              letterSpacing: 0,
-              fontWeight: 200
-            }} className="text-teal-500"> New York, New York.</span><br/>
+                fontFamily: 'Aurora Regular, Astralaga',
+                letterSpacing: 0,
+                fontWeight: 200
+              }} className="text-teal-500"> New York, New York.</span><br />
               <span
-              style={{
-                fontFamily: 'Aurora Regular, Astralaga',
-                letterSpacing: 0,
-                fontWeight: 200
-              }}
+                style={{
+                  fontFamily: 'Aurora Regular, Astralaga',
+                  letterSpacing: 0,
+                  fontWeight: 200
+                }}
                 className="text-teal-500"> Developer
-              </span>&nbsp;and&nbsp;<span 
-              style={{
-                fontFamily: 'Aurora Regular, Astralaga',
-                letterSpacing: 0,
-                fontWeight: 200
-              }}
-                className="text-teal-500">designer&nbsp;</span>(sometimes) specializing in building responsive and user-friendly 
-                <span style={{
+              </span>&nbsp;and&nbsp;<span
+                style={{
                   fontFamily: 'Aurora Regular, Astralaga',
                   letterSpacing: 0,
                   fontWeight: 200
-                }}>&nbsp;web applications</span>&nbsp;and&nbsp;<span style={{
+                }}
+                className="text-teal-500">designer&nbsp;</span>(sometimes) specializing in building responsive and user-friendly
+              <span
+                className="text-teal-500"
+                style={{
                   fontFamily: 'Aurora Regular, Astralaga',
                   letterSpacing: 0,
                   fontWeight: 200
-                }}>websites</span>.
+                }}>&nbsp;web applications</span>&nbsp;and&nbsp;<span
+                  className="text-teal-500"
+                  style={{
+                    fontFamily: 'Aurora Regular, Astralaga',
+                    letterSpacing: 0,
+                    fontWeight: 200
+                  }}>websites</span>.
             </p>
 
             <div className=" relative overflow-hidden  bg-no-repeat text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
@@ -144,10 +149,8 @@ export const Landing = () => {
         <div className="relative overflow-hidden  bg-no-repeat text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400 animate-bounce">
           <ScrollToTop style={{ color: 'black', fontSize: 'large' }} />
         </div>
-        {/* <div> */}
-        {/* </div> */}
       </main>
-          <Footer />
+      <Footer />
     </div>
   );
 }
