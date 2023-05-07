@@ -55,7 +55,7 @@ export const Landing = () => {
                 </div>
               </li>&emsp;&emsp;&emsp;
               <li>
-                <input type="checkbox" id="toggle" class="offscreen"
+                <input type="checkbox" id="toggle" className="offscreen"
                   onClick={() => setDarkMode(!darkMode)} />
                 <label htmlFor="toggle" className="switch">
                 </label>
@@ -66,7 +66,7 @@ export const Landing = () => {
             <div className="main">
               <div className="circle">
               </div>
-              <img src={myavatar} layout="fill" objectFit="cover" alt="my avatar" />
+              <img src={myavatar} layout="fill" object-fit="cover" alt="my avatar" />
             </div>
           </div>
           <div className="text-center p-10 py-10">

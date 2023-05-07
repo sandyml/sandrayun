@@ -56,21 +56,21 @@ export const MyPortfolio = () => {
 
     <div className="flex flex-col-col gap-10 py-10 md:flex-row md:flex-wrap sm:flex justify-center">
 
-     <div class="relative flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md ">
-      <div class="relative mx-4 mt-4 h-80 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg transition duration-300 ease-in-out hover:scale-110 scale-100">
+     <div className="relative flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md ">
+      <div className="relative mx-4 mt-4 h-80 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg transition duration-300 ease-in-out hover:scale-110 scale-100">
        <img src={myportfolio} className="scale-85 rounded-lg object-cover shadow-lg" alt="my portfolio" />
        <img src={skills} className="scale-85 rounded-lg object-cover shadow-lg" alt="my portfolio skills" />
       </div>
-      <div class="p-6 text-center">
-       <h4 class="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+      <div className="p-6 text-center">
+       <h4 className="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
         MY PORTFOLIO WEBSITE
        </h4>
-       <p class="block bg-gradient-to-tr from-pink-600 to-pink-400 bg-clip-text font-sans text-base font-medium leading-relaxed text-transparent antialiased">
+       <p className="block bg-gradient-to-tr from-pink-600 to-pink-400 bg-clip-text font-sans text-base font-medium leading-relaxed text-transparent antialiased">
         Created with NEXT.js and Tailwind for the first time with all the skills documentations I&#39;ve adapted so far.
        </p>
        <h4 className=" py-1 text-teal-600">Design Tools I Use</h4>
       </div>
-      <div class="flex justify-center gap-7 p-6 pt-2">
+      <div className="flex justify-center gap-7 p-6 pt-2">
        <div className=" relative overflow-hidden bg-no-repeat text-5xl flex flex-col sm:flex-row sm:flex-wrap justify-center">
         <FaReact id="rotate" className="text-1xl flex justify-center gap-16 py-3 text-teal-600 dark:text-teal-400" />
         <SiCss3 className="text-1xl gap-16 py-3 text-blue-600 dark:text-blue-600" />
@@ -88,21 +88,21 @@ export const MyPortfolio = () => {
       </div>
      </div>
 
-     <div class="relative flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-      <div class="relative mx-4 mt-4 h-80 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg transition duration-300 ease-in-out hover:scale-110 scale-100">
+     <div className="relative flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+      <div className="relative mx-4 mt-4 h-80 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg transition duration-300 ease-in-out hover:scale-110 scale-100">
        <img src={TakeAHike} className="scale-85 rounded-lg object-cover shadow-lg " alt="take a hike" />
        <img src={takeahiketrailheads} className="scale-85 rounded-lg object-cover shadow-lg" alt="take a hike" />
       </div>
-      <div class="p-6 text-center">
-       <h4 class="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+      <div className="p-6 text-center">
+       <h4 className="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
         Take A Hike
        </h4>
-       <p class="block bg-gradient-to-tr from-pink-600 to-pink-400 bg-clip-text font-sans text-base font-medium leading-relaxed text-transparent antialiased">
+       <p className="block bg-gradient-to-tr from-pink-600 to-pink-400 bg-clip-text font-sans text-base font-medium leading-relaxed text-transparent antialiased">
         Created with the idea of RESTful API and full CRUD.
        </p>
        <h4 className=" py-1 text-teal-600">Design Tools I Use</h4>
       </div>
-      <div class="flex justify-center gap-7 p-6 pt-2 ">
+      <div className="flex justify-center gap-7 p-6 pt-2 ">
        <div className=" relative overflow-hidden bg-no-repeat text-5xl flex flex-col sm:flex-row sm:flex-wrap justify-center">
         <FaReact id="rotate" className="text-1xl flex justify-center gap-16 py-3 text-teal-600 dark:text-teal-400" />
         <SiCss3 className="text-1xl gap-16 py-3 text-blue-600 dark:text-blue-600" />
@@ -127,20 +127,20 @@ export const MyPortfolio = () => {
       </div>
      </div>
 
-     <div class="relative flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md ">
-      <div class="relative mx-4 mt-4 h-80 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg transition duration-300 ease-in-out hover:scale-110 scale-100">
+     <div className="relative flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md ">
+      <div className="relative mx-4 mt-4 h-80 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg transition duration-300 ease-in-out hover:scale-110 scale-100">
        <img src={AlltRAILS} className="scale-85 rounded-lg object-cover" alt="all trails" />
       </div>
-      <div class="p-6 text-center">
-       <h4 class="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+      <div className="p-6 text-center">
+       <h4 className="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
         ALLtRAILS Reviews
        </h4>
-       <p class="block bg-gradient-to-tr from-pink-600 to-pink-400 bg-clip-text font-sans text-base font-medium leading-relaxed text-transparent antialiased">
+       <p className="block bg-gradient-to-tr from-pink-600 to-pink-400 bg-clip-text font-sans text-base font-medium leading-relaxed text-transparent antialiased">
         Created with Rails hence the name.
        </p>
        <h4 className=" text-teal-600">Design Tools I Use</h4>
       </div>
-      <div class="flex justify-center gap-7 p-6 pt-2">
+      <div className="flex justify-center gap-7 p-6 pt-2">
        <div className=" relative overflow-hidden bg-no-repeat text-5xl flex flex-col sm:flex-row sm:flex-wrap justify-center">
         <FaReact id="rotate" className="text-1xl flex justify-center gap-16 py-3 text-teal-600 dark:text-teal-400 " />
         <IoLogoJavascript className="text-1xl gap-16 py-3 text-yellow-600 dark:text-yellow-400" />
@@ -167,21 +167,21 @@ export const MyPortfolio = () => {
       </div>
      </div>
 
-     <div class="relative flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-      <div class="relative mx-4 mt-4 h-80 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg transition duration-300 ease-in-out hover:scale-110 scale-100">
+     <div className="relative flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+      <div className="relative mx-4 mt-4 h-80 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg transition duration-300 ease-in-out hover:scale-110 scale-100">
        <img src={quotesgram} className="scale-85 rounded-lg object-cover shadow-lg" alt="quotesgram" />
        <img src={quotesgramform} className="scale-85 rounded-lg object-cover shadow-lg" alt="quotesgram" />
       </div>
-      <div class="p-6 text-center">
-       <h4 class="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+      <div className="p-6 text-center">
+       <h4 className="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
         Quotesgram
        </h4>
-       <p class="block bg-gradient-to-tr from-pink-600 to-pink-400 bg-clip-text font-sans text-base font-medium leading-relaxed text-transparent antialiased">
+       <p className="block bg-gradient-to-tr from-pink-600 to-pink-400 bg-clip-text font-sans text-base font-medium leading-relaxed text-transparent antialiased">
         Created with the idea of users being able to add and delete their quotes.
        </p>
        <h4 className=" py-1 text-teal-600">Design Tools I Use</h4>
       </div>
-      <div class="flex justify-center gap-7 p-6 pt-2">
+      <div className="flex justify-center gap-7 p-6 pt-2">
        <div className=" relative overflow-hidden bg-no-repeat text-5xl flex flex-col sm:flex-row sm:flex-wrap justify-center">
         {/* <div className=" relative overflow-hidden  bg-no-repeat text-5xl flex justify-center gap-6"> */}
         <FaReact id="rotate" className="text-1xl flex justify-center gap-16 py-3 text-teal-600 dark:text-teal-400" />
@@ -200,21 +200,21 @@ export const MyPortfolio = () => {
       </div>
      </div>
 
-     <div class="relative flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-      <div class="relative mx-4 mt-4 h-80 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg transition duration-300 ease-in-out hover:scale-110 scale-100">
+     <div className="relative flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+      <div className="relative mx-4 mt-4 h-80 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg transition duration-300 ease-in-out hover:scale-110 scale-100">
        <img src={reactproject} className="scale-85 rounded-lg object-cover shadow-lg" alt="react project" />
        <img src={reactprojectfave} className="scale-85 rounded-lg object-cover shadow-lg" alt="react project" />
       </div>
-      <div class="p-6 text-center">
-       <h4 class="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+      <div className="p-6 text-center">
+       <h4 className="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
         React NYC Parks - Favorites
        </h4>
-       <p class="block bg-gradient-to-tr from-pink-600 to-pink-400 bg-clip-text font-sans text-base font-medium leading-relaxed text-transparent antialiased">
+       <p className="block bg-gradient-to-tr from-pink-600 to-pink-400 bg-clip-text font-sans text-base font-medium leading-relaxed text-transparent antialiased">
         Created with React with add to favorites and creating parks form.
        </p>
        <h4 className=" py-1 text-teal-600">Design Tools I Use</h4>
       </div>
-      <div class="flex justify-center gap-7 p-6 pt-2">
+      <div className="flex justify-center gap-7 p-6 pt-2">
        <div className=" relative overflow-hidden bg-no-repeat text-5xl flex flex-col sm:flex-row sm:flex-wrap justify-center">
         <FaReact id="rotate" className="text-1xl flex justify-center gap-16 py-3 text-teal-600 dark:text-teal-400" />
         <IoLogoJavascript className="text-1xl gap-16 py-3 text-yellow-600 dark:text-yellow-400" />

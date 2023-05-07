@@ -14,7 +14,7 @@ export const AboutMe = () => {
           className="text-5xl py-2 text-teal-500 font-medium dark:text-teal-500 md:text-6xl max-w-md">About Me</h3>
         <h3 className=" text-1xl py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-1xl md:text-2xl">Who is Sandra?</h3>
         <div className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-2xl md:text-md">
-          <div class="typewriter">
+          <div className="typewriter">
             <h1 className="text-sm py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-1xl md:text-sm">A little back story...</h1>
           </div>
           {/* <p className=" text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-md mx-auto md:text-md"> */}
