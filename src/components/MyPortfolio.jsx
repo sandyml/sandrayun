@@ -45,6 +45,7 @@ export const MyPortfolio = () => {
      className="text-5xl py-1 text-teal-500 font-medium dark:text-teal-500 md:text-2xl">
       Portfolio
      </h2>
+     
      <h3 className="text-2xl py-5 dark:text-white md:text-2xl">
       My Projects From Flatiron
      </h3>
