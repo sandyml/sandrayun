@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.2a47973b.css",
-    "main.js": "/static/js/main.4768326e.js",
-    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/takeahiketrailheads.png": "/static/media/takeahiketrailheads.263ce70db9db53bec9e5.png",
-    "static/media/reactprojectfave.png": "/static/media/reactprojectfave.ade43ce0e88f7f0abff6.png",
-    "static/media/reactproject.png": "/static/media/reactproject.3f5cebf3c58754734f52.png",
-    "static/media/AlltRAILS.png": "/static/media/AlltRAILS.db0128fa043e52742970.png",
-    "static/media/TakeAHike.png": "/static/media/TakeAHike.a005ff81b490607ee6b6.png",
-    "static/media/quotesgramform.png": "/static/media/quotesgramform.c714d2a4df84c8a9f280.png",
-    "static/media/quotesgram.png": "/static/media/quotesgram.343d338518640fb3f33a.png",
-    "static/media/skills.png": "/static/media/skills.60b63f28ba6820f10c37.png",
-    "static/media/myportfolio.png": "/static/media/myportfolio.e36c4a7c69688170d58b.png",
-    "static/media/myavatar.png": "/static/media/myavatar.3f7605364b9aa1a5e5b0.png",
-    "index.html": "/index.html",
-    "main.2a47973b.css.map": "/static/css/main.2a47973b.css.map",
-    "main.4768326e.js.map": "/static/js/main.4768326e.js.map",
-    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/sandrayun/static/css/main.2a47973b.css",
+    "main.js": "/sandrayun/static/js/main.ff18d580.js",
+    "static/js/787.1ed0c42c.chunk.js": "/sandrayun/static/js/787.1ed0c42c.chunk.js",
+    "static/media/takeahiketrailheads.png": "/sandrayun/static/media/takeahiketrailheads.263ce70db9db53bec9e5.png",
+    "static/media/reactprojectfave.png": "/sandrayun/static/media/reactprojectfave.ade43ce0e88f7f0abff6.png",
+    "static/media/reactproject.png": "/sandrayun/static/media/reactproject.3f5cebf3c58754734f52.png",
+    "static/media/AlltRAILS.png": "/sandrayun/static/media/AlltRAILS.db0128fa043e52742970.png",
+    "static/media/TakeAHike.png": "/sandrayun/static/media/TakeAHike.a005ff81b490607ee6b6.png",
+    "static/media/quotesgramform.png": "/sandrayun/static/media/quotesgramform.c714d2a4df84c8a9f280.png",
+    "static/media/quotesgram.png": "/sandrayun/static/media/quotesgram.343d338518640fb3f33a.png",
+    "static/media/skills.png": "/sandrayun/static/media/skills.60b63f28ba6820f10c37.png",
+    "static/media/myportfolio.png": "/sandrayun/static/media/myportfolio.e36c4a7c69688170d58b.png",
+    "static/media/myavatar.png": "/sandrayun/static/media/myavatar.3f7605364b9aa1a5e5b0.png",
+    "index.html": "/sandrayun/index.html",
+    "main.2a47973b.css.map": "/sandrayun/static/css/main.2a47973b.css.map",
+    "main.ff18d580.js.map": "/sandrayun/static/js/main.ff18d580.js.map",
+    "787.1ed0c42c.chunk.js.map": "/sandrayun/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2a47973b.css",
-    "static/js/main.4768326e.js"
+    "static/js/main.ff18d580.js"
   ]
 }
