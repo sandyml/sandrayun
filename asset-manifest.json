@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sandrayun/static/css/main.2a47973b.css",
-    "main.js": "/sandrayun/static/js/main.ff18d580.js",
+    "main.css": "/sandrayun/static/css/main.b70ae881.css",
+    "main.js": "/sandrayun/static/js/main.7b77b698.js",
     "static/js/787.1ed0c42c.chunk.js": "/sandrayun/static/js/787.1ed0c42c.chunk.js",
     "static/media/takeahiketrailheads.png": "/sandrayun/static/media/takeahiketrailheads.263ce70db9db53bec9e5.png",
     "static/media/reactprojectfave.png": "/sandrayun/static/media/reactprojectfave.ade43ce0e88f7f0abff6.png",
@@ -14,12 +14,12 @@
     "static/media/myportfolio.png": "/sandrayun/static/media/myportfolio.e36c4a7c69688170d58b.png",
     "static/media/myavatar.png": "/sandrayun/static/media/myavatar.3f7605364b9aa1a5e5b0.png",
     "index.html": "/sandrayun/index.html",
-    "main.2a47973b.css.map": "/sandrayun/static/css/main.2a47973b.css.map",
-    "main.ff18d580.js.map": "/sandrayun/static/js/main.ff18d580.js.map",
+    "main.b70ae881.css.map": "/sandrayun/static/css/main.b70ae881.css.map",
+    "main.7b77b698.js.map": "/sandrayun/static/js/main.7b77b698.js.map",
     "787.1ed0c42c.chunk.js.map": "/sandrayun/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a47973b.css",
-    "static/js/main.ff18d580.js"
+    "static/css/main.b70ae881.css",
+    "static/js/main.7b77b698.js"
   ]
 }
