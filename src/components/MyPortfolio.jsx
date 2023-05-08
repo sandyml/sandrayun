@@ -23,11 +23,17 @@ import { FcEngineering } from 'react-icons/fc';
 import { TbBrandNextjs } from 'react-icons/tb';
 
 export const MyPortfolio = () => {
-  const [showVideo, setShowVideo] = useState(false);
+  const [showTAH, setShowTAH] = useState(false);
+  const [showAT, setShowAT] = useState(false);
 
-  const toggleSeeDemoVideo = () => {
-    (showVideo === false) ? setShowVideo(true) :
-      setShowVideo(false);
+  const toggleSeeDemoVideoTAH = () => {
+    (showTAH === false) ? setShowTAH(true) :
+      setShowTAH(false);
+  };
+
+  const toggleSeeDemoVideoAT = () => {
+    (showAT === false) ? setShowAT(true) :
+    setShowAT(false);
   };
 
   return (
@@ -99,7 +105,7 @@ export const MyPortfolio = () => {
                 Take A Hike
               </h4>
               <p className="block bg-gradient-to-tr from-pink-600 to-pink-400 bg-clip-text font-sans text-base font-medium leading-relaxed text-transparent antialiased">
-                Created with the idea of RESTful API and full CRUD.
+                CRUD visits and dates.
               </p>
               <h4 className=" py-1 text-teal-600">Design Tools I Use</h4>
             </div>
@@ -121,9 +127,14 @@ export const MyPortfolio = () => {
               </a>&emsp;
               <BsYoutube
                 className="font-aurora-regular text-5xl py-0 text-red-600 md:text-3xl"
-                onClick={toggleSeeDemoVideo} />
-              {showVideo ?
-                <iframe width="375" height="315" src="" title="Take A Hike" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                onClick={toggleSeeDemoVideoTAH} />
+              {showTAH ?
+                <iframe 
+                width="375" height="315" 
+                src="https://www.youtube.com/embed/bQUEiifH1Fs?start=7" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen></iframe>
                 : null}
             </div>
           </div>
@@ -141,7 +152,7 @@ export const MyPortfolio = () => {
               </p>
               <h4 className=" text-teal-600">Design Tools I Use</h4>
             </div>
-            <div className="flex justify-center gap-7 p-6 pt-2">
+            <div className="flex justify-center gap-7 p-6 pt-4 ">
               <div className=" relative overflow-hidden bg-no-repeat text-5xl flex flex-col sm:flex-row sm:flex-wrap justify-center">
                 <FaReact id="rotate" className="text-1xl flex justify-center gap-16 py-3 text-teal-600 dark:text-teal-400 " />
                 <IoLogoJavascript className="text-1xl gap-16 py-3 text-yellow-600 dark:text-yellow-400" />
@@ -161,9 +172,14 @@ export const MyPortfolio = () => {
               </a>&emsp;
               <BsYoutube
                 className="font-aurora-regular text-5xl py-0 text-red-600 md:text-3xl"
-                onClick={toggleSeeDemoVideo} />
-              {showVideo ?
-                <iframe width="375" height="315" src="" title="All tRAILS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                onClick={toggleSeeDemoVideoAT} />
+              {showAT ?
+              <iframe 
+              width="375" height="315" 
+              src="https://www.youtube.com/embed/2CN5_Hlu33Y?start=2" 
+              title="All tRAILS" frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowfullscreen></iframe>
                 : null}
             </div>
           </div>
