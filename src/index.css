@@ -226,3 +226,7 @@ input[type='checkbox']:checked + .switch {
   transition: transform 1s ease-in-out;
   transform: rotate3d(1, 2, -1, 280deg)
 }
+
+#avatar {
+  position: relative;
+}

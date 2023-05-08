@@ -12,7 +12,7 @@ export const AboutMe = () => {
             fontWeight: 200
           }}
           className="text-5xl py-2 text-teal-500 font-medium dark:text-teal-500 md:text-6xl max-w-md">About Me</h3>
-        <h3 className=" text-1xl py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-1xl md:text-2xl">Who is Sandra?</h3>
+        <h3 style={{fontFamily: 'aesthetica'}} className=" text-1xl py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-1xl md:text-7xl">Who is Sandra?</h3>
         <div className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-2xl md:text-md">
           <div className="typewriter">
             <h1 className="text-sm py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-1xl md:text-sm">A little back story...</h1>

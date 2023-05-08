@@ -30,7 +30,8 @@ export const Landing = () => {
             <h1
               style={{
                 fontSize: 30,
-                fontFamily: 'Aurora Regular, Astralaga',
+                // fontFamily: 'Aurora Regular, Astralaga',
+                fontFamily: 'aesthetica',
                 letterSpacing: 0,
                 fontWeight: 200
               }}
@@ -49,7 +50,7 @@ export const Landing = () => {
               <li>
                 <div className="button-border px-4 py-2 border-none rounded-md ml-8 text-black dark:text-white">
                   <a className="button" href="Resume.pdf">
-                  {/* <a className="button" type="application/pdf" href="Resume.pdf"> */}
+                  {/* <a className="button" href="Resume.pdf" type="application/pdf"> */}
                     Resume
                   </a>
                 </div>
@@ -66,7 +67,7 @@ export const Landing = () => {
             <div className="main">
               <div className="circle">
               </div>
-              <img src={myavatar} layout="fill" object-fit="cover" alt="my avatar" />
+              <img src={myavatar} id="avatar" layout="fill" object-fit="cover" alt="my avatar" />
             </div>
           </div>
           <div className="text-center p-10 py-10">
