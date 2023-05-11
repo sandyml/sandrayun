@@ -44,11 +44,12 @@ export const MyPortfolio = () => {
           <h2
             style={{
               fontSize: 55.6,
-              fontFamily: 'Aurora Regular, Astralaga',
+              fontFamily: 'Aurora',
+              // fontFamily: 'Aurora Regular, Astralaga',
               letterSpacing: 0,
               fontWeight: 200
             }}
-            className="text-5xl py-1 text-teal-500 font-medium dark:text-teal-500 md:text-2xl">
+            className="text-5xl py-1 text-light-brown font-medium dark:text-clotted-cream md:text-2xl highlight">
             Portfolio
           </h2>
 
@@ -69,17 +70,17 @@ export const MyPortfolio = () => {
               <img src={skills} className="scale-85 rounded-lg object-cover shadow-lg" alt="my portfolio skills" />
             </div>
             <div className="p-6 text-center">
-              <h4 className="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+              <h4 style={{fontFamily: 'Astralaga' }} className="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
                 MY PORTFOLIO WEBSITE
               </h4>
-              <p className="block bg-gradient-to-tr from-pink-600 to-pink-400 bg-clip-text font-sans text-base font-medium leading-relaxed text-transparent antialiased">
+              <p className="text-black">
                 Displays the skills I&#39;ve adapted so far.
               </p>
-              <h4 className=" py-1 text-teal-600">Design Tools I Use</h4>
+              <h4 style={{fontFamily: 'Astralaga' }} className=" py-1 text-dark-beige">Design Tools I Use</h4>
             </div>
             <div className="flex justify-center gap-7 p-6 pt-2">
               <div className=" relative overflow-hidden bg-no-repeat text-5xl flex flex-col sm:flex-row sm:flex-wrap justify-center">
-                <FaReact id="rotate" className="text-1xl flex justify-center gap-16 py-3 text-teal-600 dark:text-teal-400" />
+                <FaReact id="rotate" className="text-1xl flex justify-center gap-16 py-3 text-dark-beige dark:text-teal-400" />
                 <SiCss3 className="text-1xl gap-16 py-3 text-blue-600 dark:text-blue-600" />
                 <SiTailwindcss className="text-1xl gap-16 py-3 text-blue-700 dark:text-blue-700" />
                 <TbBrandNextjs className="text-1xl gap-16 py-3 text-black dark:text-black" />
@@ -101,17 +102,17 @@ export const MyPortfolio = () => {
               <img src={takeahiketrailheads} className="scale-85 rounded-lg object-cover shadow-lg" alt="take a hike" />
             </div>
             <div className="p-6 text-center">
-              <h4 className="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
-                Take A Hike
+              <h4 style={{fontFamily: 'Astralaga' }} className="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+                TAKE A HIKE
               </h4>
-              <p className="block bg-gradient-to-tr from-pink-600 to-pink-400 bg-clip-text font-sans text-base font-medium leading-relaxed text-transparent antialiased">
+              <p className="text-black">
                 CRUD visits and dates.
               </p>
-              <h4 className=" py-1 text-teal-600">Design Tools I Use</h4>
+              <h4 style={{fontFamily: 'Astralaga' }}  className="py-1 text-dark-beige">Design Tools I Use</h4>
             </div>
             <div className="flex justify-center gap-7 p-6 pt-2 ">
               <div className=" relative overflow-hidden bg-no-repeat text-5xl flex flex-col sm:flex-row sm:flex-wrap justify-center">
-                <FaReact id="rotate" className="text-1xl flex justify-center gap-16 py-3 text-teal-600 dark:text-teal-400" />
+                <FaReact id="rotate" className="text-1xl flex justify-center gap-16 py-3 text-dark-beige dark:text-teal-400" />
                 <SiCss3 className="text-1xl gap-16 py-3 text-blue-600 dark:text-blue-600" />
                 <SiRedux className="text-1xl gap-16 py-3 text-purple-600 dark:text-purple-600" />
                 <SiTailwindcss className="text-1xl gap-16 py-3 text-blue-700 dark:text-blue-700" />
@@ -144,17 +145,17 @@ export const MyPortfolio = () => {
               <img src={AlltRAILS} className="scale-85 rounded-lg object-cover" alt="all trails" />
             </div>
             <div className="p-6 text-center">
-              <h4 className="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
-                ALLtRAILS Reviews
+              <h4 style={{fontFamily: 'Astralaga' }} className="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+                ALLTRAILS REVIEWS
               </h4>
-              <p className="block bg-gradient-to-tr from-pink-600 to-pink-400 bg-clip-text font-sans text-base font-medium leading-relaxed text-transparent antialiased">
+              <p className="text-black">
                 Created with Rails hence the name.
               </p>
-              <h4 className=" text-teal-600">Design Tools I Use</h4>
+              <h4 style={{fontFamily: 'Astralaga' }} className=" text-dark-beige">Design Tools I Use</h4>
             </div>
             <div className="flex justify-center gap-7 p-6 pt-4 ">
               <div className=" relative overflow-hidden bg-no-repeat text-5xl flex flex-col sm:flex-row sm:flex-wrap justify-center">
-                <FaReact id="rotate" className="text-1xl flex justify-center gap-16 py-3 text-teal-600 dark:text-teal-400 " />
+                <FaReact id="rotate" className="text-1xl flex justify-center gap-16 py-3 text-dark-beige dark:text-teal-400 " />
                 <IoLogoJavascript className="text-1xl gap-16 py-3 text-yellow-600 dark:text-yellow-400" />
                 <DiRuby className="text-1xl gap-16 py-3 text-red-600 dark:text-red-600" />
                 <SiRubyonrails className="text-1xl gap-16 py-3 text-red-700 dark:text-red-700" />
@@ -190,17 +191,17 @@ export const MyPortfolio = () => {
               <img src={quotesgramform} className="scale-85 rounded-lg object-cover shadow-lg" alt="quotesgram" />
             </div>
             <div className="p-6 text-center">
-              <h4 className="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
-                Quotesgram
+              <h4 style={{fontFamily: 'Astralaga' }} className="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+                QUOTESGRAM
               </h4>
-              <p className="block bg-gradient-to-tr from-pink-600 to-pink-400 bg-clip-text font-sans text-base font-medium leading-relaxed text-transparent antialiased">
+              <p className="text-black">
                 Created with the idea of users being able to add and delete their quotes.
               </p>
-              <h4 className=" py-1 text-teal-600">Design Tools I Use</h4>
+              <h4 style={{fontFamily: 'Astralaga' }} className=" py-1 text-dark-beige">Design Tools I Use</h4>
             </div>
             <div className="flex justify-center gap-7 p-6 pt-2">
               <div className=" relative overflow-hidden bg-no-repeat text-5xl flex flex-col sm:flex-row sm:flex-wrap justify-center">
-                <FaReact id="rotate" className="text-1xl flex justify-center gap-16 py-3 text-teal-600 dark:text-teal-400" />
+                <FaReact id="rotate" className="text-1xl flex justify-center gap-16 py-3 text-dark-beige dark:text-teal-400" />
                 <IoLogoJavascript className="text-1xl gap-16 py-3 text-yellow-600 dark:text-yellow-400" />
                 <SiCss3 className="text-1xl gap-16 py-3 text-blue-600 dark:text-blue-600" />
                 <SiMui className="text-1xl gap-16 py-3 text-red-600 dark:text-red-600" />
@@ -222,17 +223,17 @@ export const MyPortfolio = () => {
               <img src={reactprojectfave} className="scale-85 rounded-lg object-cover shadow-lg" alt="react project" />
             </div>
             <div className="p-6 text-center">
-              <h4 className="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
-                React NYC Parks - Favorites
+              <h4 style={{fontFamily: 'Astralaga' }} className="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+                REACT NYC PARKS - FAVORITES
               </h4>
-              <p className="block bg-gradient-to-tr from-pink-600 to-pink-400 bg-clip-text font-sans text-base font-medium leading-relaxed text-transparent antialiased">
+              <p className="text-black">
                 Created with React with add to favorites and creating parks form.
               </p>
-              <h4 className=" py-1 text-teal-600">Design Tools I Use</h4>
+              <h4 style={{fontFamily: 'Astralaga' }} className=" py-1 text-dark-beige">Design Tools I Use</h4>
             </div>
             <div className="flex justify-center gap-7 p-6 pt-2">
               <div className=" relative overflow-hidden bg-no-repeat text-5xl flex flex-col sm:flex-row sm:flex-wrap justify-center">
-                <FaReact id="rotate" className="text-1xl flex justify-center gap-16 py-3 text-teal-600 dark:text-teal-400" />
+                <FaReact id="rotate" className="text-1xl flex justify-center gap-16 py-3 text-dark-beige dark:text-teal-400" />
                 <IoLogoJavascript className="text-1xl gap-16 py-3 text-yellow-600 dark:text-yellow-400" />
                 <SiCss3 className="text-1xl gap-16 py-3 text-blue-600 dark:text-blue-600" />
                 <SiMui className="text-1xl gap-16 py-3 text-red-600 dark:text-red-600" />

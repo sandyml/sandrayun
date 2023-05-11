@@ -1,20 +1,10 @@
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  font-family: sans-serif;
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -31,6 +21,10 @@ body {
 
 @font-face {
   font-family: 'Aurora Regular', Astralaga;
+  src: url(http://www.cufonts.com);
+}
+@font-face {
+  font-family: 'Astralaga Bold';
   src: url(http://www.cufonts.com);
 }
 
@@ -50,7 +44,7 @@ body {
 .circle {
   width: 30px;
   height: 30px;
-  background: cyan;
+  background: beige;
   border-radius: 50%;
   position: absolute;
   top: 0;
@@ -78,7 +72,7 @@ body {
   font-family: 'Aurora Regular', Astralaga;
   overflow: hidden;
   /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid teal;
+  border-right: .15em solid beige;
   /* The typwriter cursor */
   white-space: nowrap;
   /* Keeps the content on a single line */
@@ -110,7 +104,7 @@ body {
   }
 
   50% {
-    border-color: teal
+    border-color: beige
   }
 }
 
@@ -127,13 +121,14 @@ body {
   width: 24px;
 }
 .button:before {
-  border-top: 2px solid #35c4aa;
+  border-top: 2px solid #e1d8c7;
   left: 0px;
   top: -5px;
 }
 .button:after {
-  border-bottom: 4px solid #35c4aa;
-  bottom: -5px;
+  /* border-bottom: 9px solid #e1d8c7; */
+  background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=8c7561);
+  bottom: -21px;
   right: 0px;
 }
 .button:hover:before,
@@ -166,7 +161,7 @@ input[type='checkbox']:checked + .switch::after {
   transform: translateX(20px);
 }
 input[type='checkbox']:checked + .switch {
-  background-color: #35c4aa;
+  background-color: #896e47;
 }
 .offscreen {
   position: absolute;
@@ -229,4 +224,10 @@ input[type='checkbox']:checked + .switch {
 
 #avatar {
   position: relative;
+}
+
+.highlight {
+  background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=8c7561);
+  margin: -3px -6px;
+  padding:  6px  6px
 }

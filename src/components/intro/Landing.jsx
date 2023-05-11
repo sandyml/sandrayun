@@ -12,31 +12,23 @@ import { Footer } from "../Footer";
 import { AboutMe } from "./AboutMe";
 import { MyPortfolio } from "../MyPortfolio";
 import { ScrollToTop } from "../ScrollToTop";
+import { Tools } from "../Tools";
 
 export const Landing = () => {
   const [darkMode, setDarkMode] = useState(false);
 
   return (
     <div className={!darkMode ? "dark" : ""}>
-      <header>
-        <title>Sandra Yun&#39;s Porfolio</title>
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css" />
-      </header>
-      <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
+      <main className=" bg-clotted-cream px-10 dark:bg-black md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
             <h1
               style={{
                 fontSize: 30,
-                // fontFamily: 'Aurora Regular, Astralaga',
-                fontFamily: 'aesthetica',
-                letterSpacing: 0,
-                fontWeight: 200
+                fontFamily: 'Aurora',
               }}
-              className="text-2xl text-black dark:text-white">
-              SMY
+              className="text-1xl text-black dark:text-white highlight">
+              smy.
             </h1>
             <ul className="flex items-center">
               <li>
@@ -48,9 +40,8 @@ export const Landing = () => {
                 </a>
               </li>
               <li>
-                <div className="button-border px-4 py-2 border-none rounded-md ml-8 text-black dark:text-white">
-                  <a className="button" href="Resume.pdf">
-                  {/* <a className="button" href="Resume.pdf" type="application/pdf"> */}
+                <div className="button-border px-4 py-2 border-none rounded-md ml-8 text-black dark:text-dark-beige">
+                  <a className="button" href="YunSandraResume.pdf">
                     Resume
                   </a>
                 </div>
@@ -63,7 +54,7 @@ export const Landing = () => {
               </li>
             </ul>
           </nav>
-          <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
+          <div className="mx-auto bg-gradient-to-b from-black rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
             <div className="main">
               <div className="circle">
               </div>
@@ -74,49 +65,50 @@ export const Landing = () => {
             <h2
               style={{
                 fontSize: 55.6,
-                fontFamily: 'Aurora Regular, Astralaga',
+                fontFamily: 'Aurora',
                 letterSpacing: 0,
-                fontWeight: 200
+                fontWeight: 300
               }}
-              className="font-aurora-regular text-5xl py-2 text-teal-500 font-medium dark:text-teal-500 md:text-6xl">
-              Sandra Yun
+              className="text-5xl py-2 text-light-brown font-medium dark:text-dark-beige md:text-6xl">
+              {/* Sandra Yun */}
+              SANDRA YUN
             </h2>
             <h3 style={{
-              fontFamily: 'Aurora Regular, Astralaga',
-              letterSpacing: 1.4
+              fontFamily: ' Astralaga',
+              letterSpacing: 2
             }}
               className="custom-text-selection text-2xl py-2 dark:text-white md:text-2xl">
               Full Stack Developer
             </h3>
             <p className=" py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-md">
-              Based in
+              Based in&nbsp;
               <span style={{
                 fontFamily: 'Aurora Regular, Astralaga',
                 letterSpacing: 0,
                 fontWeight: 200
-              }} className="text-teal-500"> New York, New York.</span><br />
+              }} className="text-light-brown"> New York, New York.</span><br />
               <span
                 style={{
                   fontFamily: 'Aurora Regular, Astralaga',
                   letterSpacing: 0,
                   fontWeight: 200
                 }}
-                className="text-teal-500"> Developer
+                className="text-light-brown"> Developer
               </span>&nbsp;and&nbsp;<span
                 style={{
                   fontFamily: 'Aurora Regular, Astralaga',
                   letterSpacing: 0,
                   fontWeight: 200
                 }}
-                className="text-teal-500">designer&nbsp;</span>(sometimes) specializing in building responsive and user-friendly
+                className="text-light-brown">designer&nbsp;</span>(sometimes) specializing in building responsive and user-friendly
               <span
-                className="text-teal-500"
+                className="text-light-brown"
                 style={{
                   fontFamily: 'Aurora Regular, Astralaga',
                   letterSpacing: 0,
                   fontWeight: 200
                 }}>&nbsp;web applications</span>&nbsp;and&nbsp;<span
-                  className="text-teal-500"
+                  className="text-light-brown"
                   style={{
                     fontFamily: 'Aurora Regular, Astralaga',
                     letterSpacing: 0,
@@ -143,12 +135,17 @@ export const Landing = () => {
               </a>
             </div>
           </div>
-        </section><hr />
-        <ToolBox /><hr />
+        </section><hr/>
+        <div className="divide-y divide-black dark:divide-white">
+        <ToolBox />
+        </div>
+        <Tools /><hr/>
+        <div className="divide-y divide-black dark:divide-white">
         <MyPortfolio /><hr />
+        </div>
         <AboutMe />
-        <div className="relative overflow-hidden  bg-no-repeat text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400 animate-bounce">
-          <ScrollToTop style={{ color: 'black', fontSize: 'large' }} />
+        <div className="relative overflow-hidden bg-no-repeat text-5xl flex justify-center gap-16 py-3 text-light-brown dark:text-dark-beige animate-bounce">
+          <ScrollToTop style={{ fontSize: 'large' }} />
         </div>
       </main>
       <Footer />

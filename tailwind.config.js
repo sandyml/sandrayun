@@ -14,8 +14,21 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       fontFamily: {
-        'aurora-regular': 'Aurora Regular'
+        'aurora-regular': 'Aurora Regular',
+        'aurora-light': 'Aurora Light'
        },
+       colors: {
+        'beige': '#dcd7c9',
+        'midnight': '#2c3639',
+        'light-midnight': '#3f4e4f',
+        'tahiti': '#3ab7bf',
+        'black': '#000000',
+        'off-beige': '#e6dcd3',
+        'dark-beige': '#bda18c',
+        'light-brown': '#8c7561',
+        'coconut': '#e1d8c7',
+        'clotted-cream': '#f5ede2',
+      },
     },
   },
   plugins: [],
