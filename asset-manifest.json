@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sandrayun/static/css/main.ff8bb84e.css",
-    "main.js": "/sandrayun/static/js/main.082fe727.js",
+    "main.js": "/sandrayun/static/js/main.ec6e8097.js",
     "static/js/787.1ed0c42c.chunk.js": "/sandrayun/static/js/787.1ed0c42c.chunk.js",
     "static/media/reactproject.png": "/sandrayun/static/media/reactproject.3f5cebf3c58754734f52.png",
     "static/media/AlltRAILS.png": "/sandrayun/static/media/AlltRAILS.db0128fa043e52742970.png",
@@ -11,11 +11,11 @@
     "static/media/myavatar.png": "/sandrayun/static/media/myavatar.3f7605364b9aa1a5e5b0.png",
     "index.html": "/sandrayun/index.html",
     "main.ff8bb84e.css.map": "/sandrayun/static/css/main.ff8bb84e.css.map",
-    "main.082fe727.js.map": "/sandrayun/static/js/main.082fe727.js.map",
+    "main.ec6e8097.js.map": "/sandrayun/static/js/main.ec6e8097.js.map",
     "787.1ed0c42c.chunk.js.map": "/sandrayun/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ff8bb84e.css",
-    "static/js/main.082fe727.js"
+    "static/js/main.ec6e8097.js"
   ]
 }
