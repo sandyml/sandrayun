@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sandrayun/static/css/main.ff8bb84e.css",
-    "main.js": "/sandrayun/static/js/main.6b2461dc.js",
+    "main.css": "/sandrayun/static/css/main.235df5d3.css",
+    "main.js": "/sandrayun/static/js/main.738662f0.js",
     "static/js/787.1ed0c42c.chunk.js": "/sandrayun/static/js/787.1ed0c42c.chunk.js",
     "static/media/reactproject.png": "/sandrayun/static/media/reactproject.3f5cebf3c58754734f52.png",
     "static/media/AlltRAILS.png": "/sandrayun/static/media/AlltRAILS.db0128fa043e52742970.png",
@@ -10,12 +10,12 @@
     "static/media/myportfolio.png": "/sandrayun/static/media/myportfolio.e36c4a7c69688170d58b.png",
     "static/media/myavatar.png": "/sandrayun/static/media/myavatar.3f7605364b9aa1a5e5b0.png",
     "index.html": "/sandrayun/index.html",
-    "main.ff8bb84e.css.map": "/sandrayun/static/css/main.ff8bb84e.css.map",
-    "main.6b2461dc.js.map": "/sandrayun/static/js/main.6b2461dc.js.map",
+    "main.235df5d3.css.map": "/sandrayun/static/css/main.235df5d3.css.map",
+    "main.738662f0.js.map": "/sandrayun/static/js/main.738662f0.js.map",
     "787.1ed0c42c.chunk.js.map": "/sandrayun/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff8bb84e.css",
-    "static/js/main.6b2461dc.js"
+    "static/css/main.235df5d3.css",
+    "static/js/main.738662f0.js"
   ]
 }
