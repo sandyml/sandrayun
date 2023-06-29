@@ -30,7 +30,7 @@ export const Tools = () => {
         Git</p>
         <p className="text-sm text-black">
        <SiTailwindcss className="text-8xl gap-16 py-3 text-blue-600 dark:text-blue-600" />
-          Trailwind CSS</p>
+          Tailwind CSS</p>
         <p className="text-sm text-black">
        <TbBrandVscode className="text-8xl gap-16 py-3 text-blue-600 dark:text-blue-600" />
         VS Code</p>

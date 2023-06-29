@@ -21,7 +21,8 @@ export const ToolBox = () => {
       letterSpacing: 0,
       fontWeight: 200
     }}
-     className="text-5xl py-2 text-black font-medium dark:text-clotted-cream md:text-6xl highlight">
+     className="text-5xl py-2 text-black font-medium dark:text-clotted-cream md:text-6xl">
+     {/* className="text-5xl py-2 text-black font-medium dark:text-clotted-cream md:text-6xl highlight"> */}
      Skills & Design Tools I Use
      </h2>
      <p className="text-md py-1 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-md">

@@ -10,24 +10,25 @@ import myavatar from '../../assets/myavatar.png';
 import { ToolBox } from "../ToolBox";
 import { Footer } from "../Footer";
 import { AboutMe } from "./AboutMe";
-import { MyPortfolio } from "../MyPortfolio";
 import { ScrollToTop } from "../ScrollToTop";
 import { Tools } from "../Tools";
+import { Cards } from "../Cards";
 
 export const Landing = () => {
   const [darkMode, setDarkMode] = useState(false);
 
   return (
+    <div id="section"> 
     <div className={!darkMode ? "dark" : ""}>
-      <main className=" bg-clotted-cream px-10 dark:bg-black md:px-20 lg:px-40">
-        <section className="min-h-screen">
-          <nav className="py-10 mb-12 flex justify-between dark:text-white">
+      <main className=" rounded-md container bg-clotted-cream px-10 dark:bg-neutral-800 md:px-20 lg:px-40">
+        <section className=" min-h-screen">
+          <nav className=" py-10 mb-12 flex justify-between dark:text-white">
             <h1
               style={{
                 fontSize: 30,
                 fontFamily: 'Aurora',
               }}
-              className="text-1xl text-black dark:text-white highlight">
+              className=" text-1xl text-black dark:text-white">
               smy.
             </h1>
             <ul className="flex items-center">
@@ -41,7 +42,7 @@ export const Landing = () => {
               </li>
               <li>
                 <div className="button-border px-4 py-2 border-none rounded-md ml-8 text-black dark:text-dark-beige">
-                  <a className="button" href="YunSandraResume.pdf">
+                  <a className="button" href="SandraYunResume.pdf">
                     Resume
                   </a>
                 </div>
@@ -69,8 +70,8 @@ export const Landing = () => {
                 letterSpacing: 0,
                 fontWeight: 300
               }}
-              className="text-5xl py-2 text-light-brown font-medium dark:text-dark-beige md:text-6xl">
-              {/* Sandra Yun */}
+              // className="text-5xl py-2 text-black font-medium dark:text-clotted-cream md:text-6xl max-w-md">
+              className="text-5xl py-2 text-black font-medium dark:text-clotted-cream md:text-6xl">
               SANDRA YUN
             </h2>
             <h3 style={{
@@ -116,13 +117,15 @@ export const Landing = () => {
                   }}>websites</span>.
             </p>
 
-            <div className=" relative overflow-hidden  bg-no-repeat text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
+            <div className="divide-y divide-black dark:divide-white">
+            <div className=" relative lg:text-5xl flex justify-center gap-10 md:text-center text-5xl">
+            {/* <div className=" relative overflow-hidden  bg-no-repeat text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400"> */}
               <a href="https://medium.com/@sandy_tech" alt="medium" >
                 <AiFillMediumCircle
                   className="max-w-xs transition duration-80 ease-in-out hover:scale-110 text-black dark:text-white"
                 />
               </a>
-              <a href="https://www.linkedin.com/in/sandra-yun-aba132272" alt="linked-in">
+              <a href="https://www.linkedin.com/in/sandramyun" alt="linked-in">
                 <AiFillLinkedin
                   className=" bg max-w-xs transition duration-80 ease-in-out hover:scale-110 text-blue-600 dark:text-blue-600"
                 />
@@ -134,21 +137,30 @@ export const Landing = () => {
                 <FaDev className="max-w-xs transition duration-80 ease-in-out hover:scale-110 text-black dark:text-white" />
               </a>
             </div>
+            </div><br/><hr/>
           </div>
-        </section><hr/>
+        </section>
+        <br/>
         <div className="divide-y divide-black dark:divide-white">
         <ToolBox />
         </div>
-        <Tools /><hr/>
         <div className="divide-y divide-black dark:divide-white">
-        <MyPortfolio /><hr />
+        <Tools /><hr/>
         </div>
+        <div className=" m-10 divide-y divide-black dark:divide-white">
+        <Cards />
+        {/* <MyPortfolio /><hr /> */}
+        <hr/>
+        </div>
+        <div className=" m-10 divide-y divide-black dark:divide-white">
         <AboutMe />
+        </div>
+      </main>
         <div className="relative overflow-hidden bg-no-repeat text-5xl flex justify-center gap-16 py-3 text-light-brown dark:text-dark-beige animate-bounce">
           <ScrollToTop style={{ fontSize: 'large' }} />
         </div>
-      </main>
       <Footer />
+    </div>
     </div>
   );
 }

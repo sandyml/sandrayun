@@ -15,7 +15,8 @@ module.exports = {
       },
       fontFamily: {
         'aurora-regular': 'Aurora Regular',
-        'aurora-light': 'Aurora Light'
+        'aurora-light': 'Aurora Light',
+        'athena-regular': 'Athena Regular'
        },
        colors: {
         'beige': '#dcd7c9',

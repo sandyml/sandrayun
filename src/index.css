@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 * {
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
 }
 
 :root {
@@ -71,21 +72,15 @@ body {
   color: black;
   font-family: 'Aurora Regular', Astralaga;
   overflow: hidden;
-  /* Ensures the content is not revealed until the animation */
   border-right: .15em solid beige;
-  /* The typwriter cursor */
   white-space: nowrap;
-  /* Keeps the content on a single line */
   margin: 0 auto;
-  /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em;
-  /* Adjust as needed */
   animation:
     typing 3.5s steps(20, end),
     blink-caret .5s step-end infinite;
 }
 
-/* The typing effect */
 @keyframes typing {
   from {
     width: 0
@@ -95,16 +90,13 @@ body {
   }
 }
 
-/* The typewriter cursor effect */
 @keyframes blink-caret {
-
   from,
   to {
     border-color: transparent
   }
-
   50% {
-    border-color: beige
+    border-color: rgb(223, 224, 224)
   }
 }
 
@@ -230,4 +222,130 @@ input[type='checkbox']:checked + .switch {
   background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=8c7561);
   margin: -3px -6px;
   padding:  6px  6px
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	background: #161616;
+	min-height: 100vh;
+}
+
+/* div#section::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(green, #6ee7b7);
+	clip-path: circle(30% at right 80%);
+  clip-path: circle(25% at 90% 78%);
+} */
+
+/* section::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(#6ee7b7, green);
+	clip-path: circle(25% at 10% 48%);
+} */
+
+.container {
+	position: relative;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 40px 0;
+}
+
+.container .card {
+	position: relative;
+	width: 300px;
+	height: 400px;
+	background: rgba(255, 255, 255, 0.05);
+	margin: 20px;
+	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	backdrop-filter: blur(10px);
+}
+
+.container .card .content {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	transition: 0.5s;
+}
+
+.container .card:hover .content {
+	transform: translateY(-20px);
+}
+
+.container .card .content .imgBx {
+	position: relative;
+	width: 290px;
+	height: 240px;
+	overflow: hidden;
+}
+
+.container .card .content .imgBx img {
+	position: absolute;
+	top: 10;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.container .card .content .contentBx h3 {
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 500;
+	font-size: 18px;
+	text-align: center;
+	margin: 20px 0 10px;
+	line-height: 1.1em;
+}
+
+.container .card .content .contentBx h3 span {
+	font-size: 12px;
+	font-weight: 300;
+	text-transform: initial;
+}
+
+.container .card .sci {
+	position: absolute;
+	bottom: 20px;
+	display: flex;
+}
+
+.container .card .sci li {
+	list-style: none;
+	margin: 0 10px;
+	transform: translateY(0px);
+	transition: 0.5s;
+	opacity: 0;
+}
+
+.container .card:hover .sci li {
+	transform: translateY(0px);
+	opacity: 1;
+}
+
+.container .card .sci li a {
+	color: #fff;
+	font-size: 20px;
 }
